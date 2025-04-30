@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(165, 42, 42, 0.192);
+}
+
+header {
+    background-image: linear-gradient(to bottom, brown, rgb(102, 41, 41));
+    color: white;
+    padding: 15px;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+nav a:hover {
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 6px;
+    transform: translate(-5px, -5px);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.144);
+    transition: transform 0.4s, border 0.1s;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0px 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;  
+}
+
+main {
+    margin-top: 50px;
+    padding: 25px;
+    background-color: rgba(165, 42, 42, 0.027);
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px rgba(165, 42, 42, 0.185);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.container-sobre {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-sobre h1 {
+    padding-bottom: 15px;
+    text-align: center;
+    color: brown;
+    font-weight: 700;
+}
+
+.container-sobre img {
+    border-radius: 50%;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.container-sobre p {
+    text-align: justify;
+    padding-top: 15px;
+    font-size: 1.1em;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, brown, rgb(102, 41, 41));
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.container-hobbies {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-hobbies h1 {
+    padding-bottom: 15px;
+    text-align: center;
+    color: brown;
+    font-weight: 700;
+}
+
+.container-hobbies ul {
+    line-height: 32px;
+    margin-left: 20px;
+}
+
+.container-hobbies li {
+    text-align: center;
+    font-size: 1.1em;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.container-hobbies img {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.container-paises {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-paises table {
+    border: 2px solid brown;
+}
+
+table > tr, th, td {
+    border: 2px solid brown;
+    padding: 10px;
+    text-align: center;
+}
+
+th, td {
+    color: brown;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.container-paises img {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.container-site h1 {
+    padding-bottom: 15px;
+    text-align: center;
+    color: brown;
+    font-weight: 700; 
+}
+
+.container-site a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+}
+
+.container-site > a:hover {
+    color: brown;
+    text-decoration: underline;
+}
