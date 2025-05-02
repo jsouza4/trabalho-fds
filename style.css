@@ -14,7 +14,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(165, 42, 42, 0.192);
+    background-color: rgba(165, 42, 42, 0.144);
 }
 
 header {
@@ -86,8 +86,22 @@ main {
     font-size: 1.1em;
 }
 
+.container-sobre button {
+    padding: 10px;
+    width: 180px;
+    border-radius: 10px;
+    margin: 20px auto;
+    border: 2px solid rgb(141, 30, 30);
+    background-image: linear-gradient(to bottom, rgb(161, 42, 42), rgb(124, 41, 41));
+    color: white;
+    box-shadow: 0px 5px 20px rgba(165, 42, 42, 0.534);
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.281);
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
 footer {
-    background-image: linear-gradient(to bottom, brown, rgb(102, 41, 41));
+    background-image: linear-gradient(to bottom, brown, rgba(102, 41, 41, 0.952));
     color: white;
     padding: 10px;
     text-align: center;
