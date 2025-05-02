@@ -5,6 +5,13 @@
     padding: 0px;
 }
 
+@media screen and (min-width: 768px) {
+    main {
+        width: 768px;
+
+    } 
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(165, 42, 42, 0.192);
@@ -44,13 +51,11 @@ nav ul li a {
 }
 
 main {
-    margin-top: 50px;
     padding: 25px;
     background-color: rgba(165, 42, 42, 0.027);
     border-radius: 20px;
     box-shadow: 0px 5px 20px rgba(165, 42, 42, 0.185);
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 50px auto;
 }
 
 .container-sobre {
@@ -66,10 +71,13 @@ main {
 }
 
 .container-sobre img {
-    border-radius: 50%;
     margin: auto;
     width: 150px;
     height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid brown;
+    box-shadow: 0px 5px 20px rgba(165, 42, 42, 0.349);
 }
 
 .container-sobre p {
@@ -122,6 +130,7 @@ footer {
 .container-paises {
     display: flex;
     flex-direction: column;
+    margin: 50px auto;
 }
 
 .container-paises table {
@@ -141,10 +150,10 @@ th, td {
 }
 
 .container-paises img {
-    width: 500px;
-    height: 300px;
+    width: 30vw;
     border-radius: 20px;
     margin: auto;
+    object-fit: contain;
 }
 
 .container-site h1 {
