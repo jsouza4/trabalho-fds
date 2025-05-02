@@ -14,7 +14,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(165, 42, 42, 0.144);
+    background-color: rgba(165, 42, 42, 0.11);
 }
 
 header {
@@ -94,10 +94,14 @@ main {
     border: 2px solid rgb(141, 30, 30);
     background-image: linear-gradient(to bottom, rgb(161, 42, 42), rgb(124, 41, 41));
     color: white;
-    box-shadow: 0px 5px 20px rgba(165, 42, 42, 0.534);
+    box-shadow: 0px 5px 20px rgba(165, 42, 42, 0.445);
     text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.281);
     font-weight: 600;
     font-size: 0.9em;
+}
+
+.container-sobre button:hover{
+    background-image: linear-gradient(to bottom, rgba(182, 53, 53, 0.959));
 }
 
 footer {
